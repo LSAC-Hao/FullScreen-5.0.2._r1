@@ -1,0 +1,8 @@
+at line 914, inside method makeStatusBarView(), before statement, return mStatusBarView,
+  protected PhoneStatusBarView makeStatusBarView() {
+  
+  ...
+  
+    mStatusBarWindow.setVisibility(View.GONE);
+    return mStatusBarView;
+  }
